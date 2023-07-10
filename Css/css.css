@@ -1,0 +1,77 @@
+/* Global Rules */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Cairo', sans-serif;
+  /* احرف جميلة من غير حواف */
+  font-family: 'Princess Sofia', cursive;
+   /* ك احرف التوقيع مبعثرة */
+  font-family: 'Raleway', sans-serif; 
+  /* يحتوي بعض الاحرف المتداخلة */
+  font-family: 'Roboto Serif', serif; 
+   /* احرف ذات حواف جميلة */
+  font-family: 'Sofia', cursive; 
+  /* احرف توقيع  */
+  font-family: 'Tangerine', cursive;
+   /* احرف توقيع مائلة */
+  font-family: 'Audiowide', cursive; 
+   /* احرف رقمية   */
+}
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  color: unset;
+  text-decoration: none;
+}
+/* Global Rules */
+
+/* variabls */
+:root {
+  --text-family-at-all : 'Roboto Serif', serif;
+  --text-family-signature : 'Tangerine', cursive;
+  --text-special-title-family : 'Audiowide', cursive;
+  --text-normal : calc(16px + (24 - 16)*(100vw - 400px)/(800 - 400));
+  --text-normal-line-height:  calc(28px + (38 - 28) * (100vw - 600px) / (1200 - 600));
+  --text-big : calc(30px + (76 - 30)*(100vw - 1100px)/(1774 - 1100));
+  --text-big-line-height : calc(36px + (82 - 36)*(100vw - 1100px)/(1774 - 1100));
+  --text-padding: calc(20px + (40 - 20) * (100vw - 600px) / (1200 - 600));
+  --text-primary-color: #35d1c9;
+  --text-secondary-color: #3b5ada;
+}
+/* variabls */
+
+/* Media */
+@media print {
+
+}
+@media (min-width) and (max-width) {
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+ }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
+/* Media */
+
